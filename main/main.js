@@ -19,16 +19,7 @@ let funct = () =>{
             payment[i].innerHTML=timeel*priceel
         } 
         hourarr.push({name:worker[i].innerText, value:timeel})    
-    }
-    // for (var i = 0; i < hourarr.length ; i++) {
-    //             for(var j = 1; j < hourarr.length; j++) {
-    //             if (hourarr.value[j-1] > hourarr.value[j]) {
-    //                 let temp = hourarr[j];
-    //                 hourarr[j] = hourarr[j-1];
-    //                 hourarr[j-1] = temp;
-    //             }
-    //           }
-    //       }   
+    }  
           console.log(hourarr)  
 }
 
